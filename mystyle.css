@@ -24,6 +24,7 @@ p {
 
 li {
     font-weight: 500;
+    font-size: 20px;
     
 }
 
@@ -196,10 +197,6 @@ th {
 #artist_header {
     margin-left: 120px;
     font-weight: bold;
-}
-
-.font_size {
-    font-size: 20px;
 }
 
 #artist {
