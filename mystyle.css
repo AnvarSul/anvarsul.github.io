@@ -1,0 +1,226 @@
+h1 {
+    font-weight: normal;
+    font-family: Arial;
+    color: black;
+    margin-left: 2cm;
+    margin: 3px;
+    font-size: 32pt;
+
+}
+
+h2 {
+    font-weight: normal;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+    margin-left: 2cm;
+    margin: 3px;
+    font-size: 22pt;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+}
+
+li {
+    font-weight: 500;
+    
+}
+
+ul {
+    padding-left: 20px;
+    margin: 5px 10px;
+}
+
+
+#heading_area {
+    text-align: center;
+    background-color: orange;
+    float: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  white;
+}
+
+#heading_area h2 {
+    font-size: 20pt;
+}
+
+#about_me {
+    margin-top: 20px;
+    margin-right: 10px;
+    float: left;
+
+}
+#about_me div{
+    border-width: 5px;
+    border-style: solid;
+    background-color: palegoldenrod;
+    border-color: orange;
+    
+}
+#about_me h1{
+    
+    font-family: serif;
+    color: black;
+    margin-left: 2cm;
+    margin: 5px;
+    font-size: 28pt;
+    
+}
+#about_me h2{
+    font-weight: normal;
+    font-family: serif;
+    color: rgb(201, 13, 13);
+    margin-left: 1cm;
+    margin: 5px;
+    font-size: 16pt;
+}
+#about_me h3{
+
+    margin-left: 1cm;
+    margin: 5px;
+    font-size: 16pt;
+}
+
+#inner_container {
+    display: flex;
+    width: 100%;
+}
+#container_size{
+    width:14%;
+    display: flex;
+   
+}
+
+#right_part {
+    float: right;
+}
+
+.box_part {
+    border: 4px solid orange;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+    overflow: auto;
+    
+    
+}
+
+.box_part span {
+    border: 0px;
+    border-bottom: 2px;
+    border-style: dashed;
+    border-color: rgb(7, 7, 96);
+}
+
+.box_part img {
+    float: right;
+}
+
+#main_area{
+	width:95%;
+    float:center;
+    margin: auto ;
+}
+
+a {
+	color: #0008ff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border-style: none;
+    width: 240px;
+    height: 280px;
+    padding: 35px;
+	
+}
+table {
+    margin-left: 90px;
+    width: 90%;
+    height: 500px;
+    margin-top: 1%;
+}
+
+tr {
+    text-align: center;
+    color: rgb(204, 18, 18);
+    font-size: 20pt;
+    font-style: initial;
+}
+
+tr:nth-child(even){
+    background-color: rgba(20, 18, 18, 0.756);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(201, 201, 201);
+}
+#table_head{
+    height: 50px;
+}
+
+td {
+    height: 25px;
+}
+
+th {
+    width: 33%;
+}
+#hobby_table {
+    background-color: rgba(255, 252, 252, 0.9);
+    border: 5px groove rgb(255, 94, 0);
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 25px;
+   
+    
+}
+
+#hobby_box {
+    float: left;
+    width: 49.5%;
+}
+
+#hobby_header {
+    margin-left: 130px;
+    font-weight: bold;
+}
+
+#artist_header {
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+.font_size {
+    font-size: 20px;
+}
+
+#artist {
+    border-left: 1px groove rgb(0, 0, 0);
+    float: right;
+    width: 50%;
+    height: 100%;
+    
+}
+#quote_body {
+    width: 350px;
+    height: 50px;
+}
+
+#quote {
+    color: orange;
+    font-size: 26px;
+    font-style: initial;
+}
+body {
+    background-image: url('cool.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
