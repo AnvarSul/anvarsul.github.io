@@ -1,2 +1,2 @@
 # anvarsul.github.io
-This is my homepage i created for web programming
+This is my homepage I created for web programming
